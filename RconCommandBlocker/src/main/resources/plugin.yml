@@ -1,0 +1,10 @@
+name: ConsoleCommandBlocker
+version: '${project.version}'
+main: com.example.consolecommandblocker.ConsoleCommandBlocker
+api-version: '1.16'
+description: Блокирует выполнение команд из консоли сервера
+
+permissions:
+  consoleblocker.bypass:
+    description: Позволяет обходить блокировку команд в консоли
+    default: op
